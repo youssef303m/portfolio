@@ -6,6 +6,14 @@ export default {
       fontFamily: {
         ubuntu: ["ubuntu", "sans-serif"],
       },
+      colors: {
+        primary: "#00FFC2",
+        secondary: "#01FD49",
+        paragraph: "#EEEEEE",
+      },
+      transitionDuration: {
+        main: "300ms",
+      },
     },
   },
   plugins: [],
