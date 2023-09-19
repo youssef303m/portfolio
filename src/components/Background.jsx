@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 function randomChar() {
-  let digits = "ABCDEFGHIKLMNOPQRSTVXYZ123456789";
+  let digits = "01";
   let randomIndex = Math.floor(Math.random() * digits.length);
   return digits[randomIndex];
 }
