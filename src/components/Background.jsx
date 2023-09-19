@@ -25,7 +25,7 @@ const Background = () => {
   }, []);
 
   return (
-    <div className="fixed w-screen h-screen break-words opacity-[0.05] pointer-events-none">
+    <div className="fixed w-screen h-screen break-words opacity-[0.05] pointer-events-none background-text">
       {digits}
     </div>
   );
