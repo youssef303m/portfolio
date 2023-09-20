@@ -2,11 +2,6 @@
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  const a = [1, 2];
-  a[0] = 10;
-  a[1] = 20;
-  a[2] = 30;
-  console.log(a);
   return (
     <main className="min-h-screen w-screen flex justify-center items-center">
       <div className="text-center px-4">
