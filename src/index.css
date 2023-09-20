@@ -32,3 +32,9 @@ ul {
 .background-text {
   mask-image: radial-gradient(rgba(0, 0, 0, 1) 0%, transparent 100%);
 }
+
+.glow:hover {
+  box-shadow: 0 0 60px 5px rgba(255, 255, 255, 0.3),
+    0 0 100px 20px rgba(22, 214, 182, 0.2),
+    0 0 140px 90px rgba(11, 150, 18, 0.2);
+}

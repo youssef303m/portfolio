@@ -10,6 +10,7 @@ export default {
         primary: "#00FFC2",
         secondary: "#01FD49",
         paragraph: "#EEEEEE",
+        body: "#1D1D1D",
       },
       transitionDuration: {
         main: "300ms",
