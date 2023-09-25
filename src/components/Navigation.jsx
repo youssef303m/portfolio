@@ -11,10 +11,11 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
     <nav
-      className="fixed md:right-8 md:top-1/2 md:translate-y-[-50%]
+      className="fixed md:right-8 md:top-1/2 md:translate-y-[-50%] z-[100]
     bg-[rgba(255,255,255,0.1)] border-solid border-[1px] border-[rgba(255,255,255,0.1)]
     py-4 px-2 md:rounded-full
-    md-max:bottom-0 md-max:left-1/2 md-max:translate-x-[-50%] md-max:w-full"
+    md-max:bottom-0 md-max:left-1/2 md-max:translate-x-[-50%] md-max:w-full
+    backdrop-blur-[1px] backdrop-brightness-50"
     >
       <ul className="flex md:flex-col gap-6 md-max:justify-evenly">
         <li>
