@@ -33,6 +33,18 @@ li {
 }
 /* End Normalize */
 
+/* Start Scrollbar */
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 4px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #00ffc2;
+  border-radius: 99px;
+}
+/* End Scrollbar */
+
 .background-text {
   mask-image: radial-gradient(rgba(0, 0, 0, 1) 0%, transparent 100%);
 }
